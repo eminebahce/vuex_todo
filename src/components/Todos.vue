@@ -31,7 +31,7 @@
         name: "Todos",
         methods: {
             deleteTodo(todoId) {
-                return this.$stoe.dispatch('deleteTodo', todoId);
+                return this.$store.dispatch('deleteTodo', todoId);
             },
             onDblClick(todo) {
                 const updatedTodo = {
